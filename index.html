@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BT5</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+  </head>
+  <body>
+    <section class="b1">
+      <div class="container text-end">
+        <button type="button" class="btn btn-primary position-relative">
+          Inbox
+          <span
+            class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+          >
+            99+
+            <span class="visually-hidden">unread messages</span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div
+          class="alert alert-danger alert-dismissible fade show"
+          role="alert"
+        >
+          <p>
+            <strong>warning!</strong> there was a problem with your internet
+            connection.
+          </p>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="alert"
+            aria-label="Close"
+          ></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="accordion_f">
+      <div class="container">
+        <h3>accordian Flush</h3>
+        <div class="accordion accordion-flush" id="accex_1">
+          <!-- item one -->
+          <div class="accordion-item">
+            <h2 class="acc_h" id="flush_h1">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                Is Dhaka a good place to live?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush_h1"
+              data-bs-parent="#accex_1"
+            >
+              <div class="accordion-body">
+                <p>
+                  “Dhaka”-The magical city of Bangladesh where dreams come true.
+                  As it is the capital of the country, the fascination around
+                  this city is not astonishing but aside from that this city has
+                  many things to offer for a better lifestyle. Despite some
+                  flaws, Dhaka has many advantages compared to the rest of the
+                  country.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- item two -->
+          <div class="accordion-item">
+            <h2 class="acc_h" id="flush_h2">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                What is the biggest problem in Dhaka?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush_h2"
+              data-bs-parent="#accex_1"
+            >
+              <div class="accordion-body">
+                <p>
+                  Dhaka city's common problems are increase in water pollution,
+                  traffic congestion, air and noise pollution, solid waste
+                  disposal, black smoke, etc.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- item three -->
+          <div class="accordion-item">
+            <h2 class="acc_h" id="flush_h3">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                Why is Dhaka known as the City of Mosques?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush_h3"
+              data-bs-parent="#accex_1"
+            >
+              <div class="accordion-body">
+                <p>
+                  It has been called the City of Mosques and the Venice of the
+                  East, due to its Islamic architecture and a riverfront facing
+                  the Buriganga (Old Ganges).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="acc_ex">
+      <div class="container">
+        <h4>accordian show/hide</h4>
+        <div class="accordion" id="acc_ex1">
+          <!-- item one -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="h_one">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Are cats loyal?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="h_one"
+              data-bs-parent="#acc_ex1"
+            >
+              <div class="accordion-body">
+                <p>
+                  While many people think that cats are standoffish and aloof,
+                  the truth is that they are loyal, loving companions (just like
+                  dogs). The key is that cats show their love in very different
+                  ways than dogs. Usually, those expressions of love are fairly
+                  subtle, so we miss them.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="h_two">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Do cats miss their owners?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="h_two"
+              data-bs-parent="#acc_ex1"
+            >
+              <div class="accordion-body">
+                <p>
+                  Fortunately, there's research that proves that cats can get
+                  emotionally attached and miss their owners while they're away.
+                  Cats may not show that they miss their owners in the same way
+                  that dogs do.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- item three -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="h_three">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapsethree"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Do cats know they are loved?
+              </button>
+            </h2>
+            <div
+              id="collapsethree"
+              class="accordion-collapse collapse"
+              aria-labelledby="h_three"
+              data-bs-parent="#acc_ex1"
+            >
+              <div class="accordion-body">
+                <p>
+                  And the answer is a resounding yes! Cats often feel love quite
+                  strongly for their owners and other companions. They're just
+                  sometimes a little more subtle about it than dogs. Have you
+                  ever asked yourself, "What do cats think about their owners?"
+                  The answer is that they think pretty highly of us.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="b">
+      <div class="container text-center">
+        <button type="button" class="btn btn-dark">click me</button>
+      </div>
+    </section>
+
+    <!-- js links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
